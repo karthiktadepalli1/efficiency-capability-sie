@@ -1,0 +1,12 @@
+\begin{tabular}{@{}lp{0.86\textwidth}@{}}
+\toprule
+Input & Source \\
+\midrule
+$g_\nu$ & Linear pool of four fixed-task rates: the baseline is their weighted average and the log standard deviation is the weighted average of their log standard deviations, each from its source interval. Sources: the hardware-adjusted algorithmic component of inference-price declines of \citet{gundlach2026price}, $3.22\times$/yr on GPQA Diamond for open-weight models (90\% CI $1.54$--$6.75$) (weight 1/2); the scale-independent component of \citet{gundlach2025origin}, $2.6\times$ over 2012--2023, no interval reported, pretraining dispersion (1/6); \citet{ho2024algorithmic}, compute to fixed perplexity halves every 8.4 months (95\% CI 4.5--14.3) (1/6); the ImageNet rate of \citet{erdil2022cv}, 9 months (95\% CI 4--25) (1/6) \\
+$g_R$ & Frontier-lab staff growth since late 2022: OpenAI staff $0.85$/yr \citep{howhitfill2025experiments}, Epoch AI lab headcount $\approx140\%$/yr \citep{davidson2026networks}; baseline is their mean in logs; high end is the experiment-compute-augmented denominator of \citet{howhitfill2025experiments}, low end mirrors it in logs around the baseline \\
+$g_h$ & \citet{metr2026th11}: doubling every 131 days since 2023 (95\% CI 107--161); the 2019--2025 doubling time is 196 days (162--223) \\
+$s$ & \citet{whitfill2025horizon}: horizon growth proportional to effective-compute growth $g_C + g_{\mathrm{alg}}$, with algorithmic progress $g_{\mathrm{alg}} = 1.27$/yr (95\% CI 0.67--3.61) and training compute growth $4.5\times$/yr \citep{sevilla2024compute}; the capability-index decomposition of \citet{ho2025rosetta} gives $0.52$ \\
+$k$ & Length-weighted Pareto fit above four hours to the human-baselined tasks of METR's Time Horizon 1.1 suite \citep{metr2026th11,rein2025hcast}; low end: the same fit above one hour; high end: the same fit to the real open-source issues of \citet{becker2025productivity}; GDPval quantiles \citep{openai2025gdpval} give a count-weighted $1.34$ \\
+$\sigma$ & \citet{whitfillwu2025compute}: $-0.10$ (SE $0.18$) with frontier-experiment compute, $2.58$ (SE $0.34$) with total research compute; \citet{davidson2023compute}: $0.67$; \citet{erdil2025gate}: $0.61$ ($0.17$--$0.83$); \citet{korinek2024scenarios}: $0.5$ \\
+\bottomrule
+\end{tabular}
